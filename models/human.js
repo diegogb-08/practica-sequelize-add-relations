@@ -15,7 +15,8 @@ module.exports = (sequelize, DataTypes) => {
   };
   Human.init({
     name: DataTypes.STRING,
-    genre: DataTypes.STRING
+    genre: DataTypes.STRING,
+    age: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Human',
